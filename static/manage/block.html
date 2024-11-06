@@ -16,6 +16,22 @@
     .govuk-footer__copyright-logo {
       background-image: url(/static/assets/images/govuk-crest.svg);
     }
+
+    @font-face {
+      font-family: GDS Transport;
+      font-style: normal;
+      font-weight: 400;
+      src: url(/static/assets/fonts/light-94a07e06a1-v2.woff2) format("woff2"), url(/assets/fonts/light-f591b13f7d-v2.woff) format("woff");
+      font-display: fallback
+    }
+
+    @font-face {
+      font-family: GDS Transport;
+      font-style: normal;
+      font-weight: 700;
+      src: url(/static/assets/fonts/bold-b542beb274-v2.woff2) format("woff2"), url(/assets/fonts/bold-affa96571d-v2.woff) format("woff");
+      font-display: fallback
+    }
   </style>
 </head>
 
@@ -61,7 +77,8 @@
       <h1 class="govuk-heading-xl">You have been blocked</h1>
       <p class="govuk-body">This may be due to several reasons, such as failing a security check.</p>
       <p class="govuk-body">This block may be temporary, so we recommend you try again in 1 hour.</p>
-      <p class="govuk-body">If you continue to see this message, please contact us via renew@ipo.gov.uk ** JAKE Confirm ** quoting the following:</p>
+      <p class="govuk-body">If you continue to see this message, please contact us via renew@ipo.gov.uk ** JAKE Confirm
+        ** quoting the following:</p>
       <p class="govuk-body">
         <b>Id:</b> ::RAY_ID::<br />
         <b>Your IP Address:</b> ::CLIENT_IP::<br />
