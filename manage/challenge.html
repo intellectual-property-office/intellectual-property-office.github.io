@@ -12,7 +12,6 @@
   <link rel="apple-touch-icon" href="/assets/images/govuk-icon-180.png">
   <link rel="manifest" href="/assets/manifest.json">
   <link rel="stylesheet" href="/govuk-frontend-5.7.1.min.css">
-
 </head>
 
 <body class="govuk-template__body app-body-class" data-test="My value" data-other="report:details">
@@ -35,7 +34,7 @@
         </a>
       </div>
       <div class="govuk-header__content">
-        <a href="https://www.manage-intellectual-property.service.gov.uk/"
+        <a href="https://www.search-for-intellectual-property.service.gov.uk/"
           class="govuk-header__link govuk-header__service-name">
           Manage intellectual property
         </a>
@@ -51,7 +50,7 @@
         <span class="govuk-phase-banner__text">
           This is a new service - your
           <a class="govuk-link"
-            href="https://response.questback.com/dynamic/intellectualpropertyoffice/qwbsuvbinl/answer?sid=q7P6zxow67&specific-page=block&transaction-name=manage&environment=prod">
+            href="https://response.questback.com/dynamic/intellectualpropertyoffice/qwbsuvbinl/answer?sid=q7P6zxow67&specific-page=captcha&transaction-name=search&environment=prod">
             feedback</a>
           will help us to improve it.
         </span>
@@ -60,15 +59,12 @@
     <main class="govuk-main-wrapper app-main-class" id="main-content">
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-two-thirds">
-          <h1 class="govuk-heading-xl">You have been blocked</h1>
-          <p class="govuk-body">This may be due to several reasons, such as failing a security check.</p>
-          <p class="govuk-body">If you continue to see this message, please <a
-              href="https://www.gov.uk/government/organisations/intellectual-property-office/about/access-and-opening#contact-details"
-              class="govuk-link">contact us</a> quoting the following:</p>
+          <h1 class="govuk-heading-xl">Security check</h1>
+          <p class="govuk-body">This is to keep our services safe from automated systems which are attempting to
+            extract copies of our data (also known as 'data mining').</p>
+          <p class="govuk-body">This security check is required for you to continue to the service.</p>
           <p class="govuk-body">
-            <b>Id:</b> ::RAY_ID::<br />
-            <b>Your IP Address:</b> ::CLIENT_IP::<br />
-            <b>Location:</b> ::GEO::
+            ::CAPTCHA_BOX::
           </p>
         </div>
       </div>
