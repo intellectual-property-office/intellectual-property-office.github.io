@@ -6,13 +6,13 @@ New pages for cloudflare have been split into folders for our new domains;
 ## Search
 Custom page mapping for cloudflare;
 
-- 500_errors - error.html
+- 500_errors - error500.html
 - basic_challenge - challenge.html
 - country_challenge - country-challenge.html
 - errors_1000 - error.html
-- ip_block - blok.html
+- ip_block - block.html
 - managed_challenge - challenge.html
-- ratelimit_block - rate.html
+- ratelimit_block - block.html
 - under_attack - attack.html
 - waf_block - block.html
 - waf_challenge - challenge.html
